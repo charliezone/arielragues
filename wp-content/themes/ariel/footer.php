@@ -20,12 +20,8 @@
       
       <div class="col-lg-4 col-md-4 col-sm-4">
         <h4><span class="fa fa-envelope"></span>Contacto</h4>
-        <form id="newsletter">
-          <input name="correo" type="email" placeholder="Correo" />
-          <input name="nombre" type="text" placeholder="Nombre" />
-          <textarea name="mensage" placeholder="Mensaje"></textarea>
-          <button class="submit-btn">Enviar</button>
-        </form>
+        <?php echo do_shortcode('[contact-form-7 id="22" html_id="newsletter" title="Contact form 1"]') ?>
+        
       </div>
       <!--\\column--> 
       

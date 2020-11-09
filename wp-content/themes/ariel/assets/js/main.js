@@ -8,11 +8,9 @@
 	3-Vegas Slider
 	4-Jplayer
 	5-Sliders
-	6-Flicker
-	7-Tweet
-	8-Google Maps
-	9-Gllery
-	10-contact Form
+	6-Gllery
+	7-contact Form
+	8-custom
 	*/
 	
 	
@@ -188,6 +186,8 @@
 			$('#home-next').click(function () {$flex_home.flexslider("next");return false;});
 			$('#home-prev').click(function () {$flex_home.flexslider("prev");return false;});
 		}
+
+
 		if($('.albums-carousel').length!=0 ){
 			$('.albums-carousel').carouFredSel({
 				width: "100%",
@@ -200,102 +200,6 @@
 				next: {button: "a.next-album",key: "right"}
 			});
 		}
-	
-		/*============================
-		6-Flicker
-		============================*/
-	
-		/* if($('#flicker-feed').length!=0 && !($('#flicker-feed').hasClass('jsExecuted'))){
-			$('#flicker-feed').addClass('jsExecuted');
-			$('#flicker-feed').jflickrfeed({
-				limit: $('#flicker-feed').data('limit'),
-				qstrings: {id: $('#flicker-feed').attr('data-userID')},
-				itemTemplate: '<li><a href="{{image_b}}" data-rel="prettyPhoto"><img alt="{{title}}" src="{{image_s}}" /></a></li>'
-			}, function () {$("a[data-rel^='prettyPhoto']").prettyPhoto();});
-		} */
-	
-	
-		/*============================
-		7-Tweet
-		============================*/
-		/* if ($('.latest-tweet').length!=0 && !($('.latest-tweet').hasClass('jsExecuted'))){
-			$('.latest-tweet').addClass('jsExecuted');
-			 $('.latest-tweet').twittie({
-				 username:$('.latest-tweet').attr('data-username'),
-				dateFormat: '%b. %d, %Y',template: '{{tweet}} <time class="date">{{date}}</time>',
-				count: $('.latest-tweet').data('limit'),
-				apiPath:"assets/php/tweet_api/tweet.php",
-			});
-		} */
-		
-		/*============================
-		8-Google Maps
-		============================*/
-	
-		/* if ($('.xv-gmap').length!=0){
-			$('.xv-gmap').each(function() {
-				var $this=$(this)
-				
-					var selector_map =$this.attr('id'),
-						mapAddress = $this.data('address'),
-						mapType = $this.data('maptype'),
-						zoomLvl = $this.data('zoomlvl'),
-						map_theme_control = $this.data('theme'),
-						map_theme;
-			
-					switch (map_theme_control) {
-					case 'pink':
-						map_theme=[{stylers:[{hue:"#e62948"},{visibility:"on"},{invert_lightness:true},{saturation:40},{lightness:10}]}]
-			
-						break;
-					case 'red':
-						map_theme=[{featureType:"water",elementType:"geometry",stylers:[{color:"#ffdfa6"}]},{featureType:"landscape",elementType:"geometry",stylers:[{color:"#b52127"}]},{featureType:"poi",elementType:"geometry",stylers:[{color:"#c5531b"}]},{featureType:"road.highway",elementType:"geometry.fill",stylers:[{color:"#74001b"},{lightness:-10}]},{featureType:"road.highway",elementType:"geometry.stroke",stylers:[{color:"#da3c3c"}]},{featureType:"road.arterial",elementType:"geometry.fill",stylers:[{color:"#74001b"}]},{featureType:"road.arterial",elementType:"geometry.stroke",stylers:[{color:"#da3c3c"}]},{featureType:"road.local",elementType:"geometry.fill",stylers:[{color:"#990c19"}]},{elementType:"labels.text.fill",stylers:[{color:"#ffffff"}]},{elementType:"labels.text.stroke",stylers:[{color:"#74001b"},{lightness:-8}]},{featureType:"transit",elementType:"geometry",stylers:[{color:"#6a0d10"},{visibility:"on"}]},{featureType:"administrative",elementType:"geometry",stylers:[{color:"#ffdfa6"},{weight:.4}]},{featureType:"road.local",elementType:"geometry.stroke",stylers:[{visibility:"off"}]}]
-			
-						break;
-					case 'blue':
-						map_theme=[{stylers:[{hue:"#007fff"},{saturation:89}]},{featureType:"water",stylers:[{color:"#ffffff"}]},{featureType:"administrative.country",elementType:"labels",stylers:[{visibility:"off"}]}]
-			
-						break;
-					case 'yellow':
-						map_theme=[{featureType:"water",elementType:"geometry",stylers:[{color:"#a2daf2"}]},{featureType:"landscape.man_made",elementType:"geometry",stylers:[{color:"#f7f1df"}]},{featureType:"landscape.natural",elementType:"geometry",stylers:[{color:"#d0e3b4"}]},{featureType:"landscape.natural.terrain",elementType:"geometry",stylers:[{visibility:"off"}]},{featureType:"poi.park",elementType:"geometry",stylers:[{color:"#bde6ab"}]},{featureType:"poi",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"poi.medical",elementType:"geometry",stylers:[{color:"#fbd3da"}]},{featureType:"poi.business",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry.stroke",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"labels",stylers:[{visibility:"off"}]},{featureType:"road.highway",elementType:"geometry.fill",stylers:[{color:"#ffe15f"}]},{featureType:"road.highway",elementType:"geometry.stroke",stylers:[{color:"#efd151"}]},{featureType:"road.arterial",elementType:"geometry.fill",stylers:[{color:"#ffffff"}]},{featureType:"road.local",elementType:"geometry.fill",stylers:[{color:"black"}]},{featureType:"transit.station.airport",elementType:"geometry.fill",stylers:[{color:"#cfb2db"}]}]
-			
-			
-						break;
-					case 'green':
-						map_theme=[{featureType:"water",elementType:"geometry",stylers:[{visibility:"on"},{color:"#aee2e0"}]},{featureType:"landscape",elementType:"geometry.fill",stylers:[{color:"#abce83"}]},{featureType:"poi",elementType:"geometry.fill",stylers:[{color:"#769E72"}]},{featureType:"poi",elementType:"labels.text.fill",stylers:[{color:"#7B8758"}]},{featureType:"poi",elementType:"labels.text.stroke",stylers:[{color:"#EBF4A4"}]},{featureType:"poi.park",elementType:"geometry",stylers:[{visibility:"simplified"},{color:"#8dab68"}]},{featureType:"road",elementType:"geometry.fill",stylers:[{visibility:"simplified"}]},{featureType:"road",elementType:"labels.text.fill",stylers:[{color:"#5B5B3F"}]},{featureType:"road",elementType:"labels.text.stroke",stylers:[{color:"#ABCE83"}]},{featureType:"road",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road.local",elementType:"geometry",stylers:[{color:"#A4C67D"}]},{featureType:"road.arterial",elementType:"geometry",stylers:[{color:"#9BBF72"}]},{featureType:"road.highway",elementType:"geometry",stylers:[{color:"#EBF4A4"}]},{featureType:"transit",stylers:[{visibility:"off"}]},{featureType:"administrative",elementType:"geometry.stroke",stylers:[{visibility:"on"},{color:"#87ae79"}]},{featureType:"administrative",elementType:"geometry.fill",stylers:[{color:"#7f2200"},{visibility:"off"}]},{featureType:"administrative",elementType:"labels.text.stroke",stylers:[{color:"#ffffff"},{visibility:"on"},{weight:4.1}]},{featureType:"administrative",elementType:"labels.text.fill",stylers:[{color:"#495421"}]},{featureType:"administrative.neighborhood",elementType:"labels",stylers:[{visibility:"off"}]}]
-			
-						break;
-					default:
-						map_theme = [];
-					}
-					contactemaps(selector_map, mapAddress, mapType, zoomLvl, map_theme);
-				
-			});
-		} */
- 	
-		/* function contactemaps(selector_map, address, type, zoom_lvl, map_theme) {
-			var map = new google.maps.Map(document.getElementById(selector_map), {
-				mapTypeId: google.maps.MapTypeId.type,
-				scrollwheel: false,
-				draggable: false,
-				zoom: zoom_lvl,
-				styles: map_theme,
-			});
-			var geocoder = new google.maps.Geocoder();
-			geocoder.geocode({
-					'address': address
-				},
-				function (results, status) {
-					if (status === google.maps.GeocoderStatus.OK) {
-						new google.maps.Marker({
-							position: results[0].geometry.location,
-							map: map,
-							/* icon: map_pin*/
-						/* });
-						map.setCenter(results[0].geometry.location);
-					}
-				});
-		} */
 	
 		/*===========================
 		9-Gllery
@@ -393,40 +297,27 @@
 			});
 			
 		}
-		
-		
-		/*=======================
-		10-Contact Form validation
-		=======================*/
-		 function IsEmail(email) {
-			var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-			return regex.test(email);
-		}
-		
-		if($("#contactform").length!=0){
-			$("#contactform").submit(function (e) {
-				e.preventDefault();
-				var name = $("#name").val(),
-				email = $("#email").val(),
-				message = $("#message").val(),
-				dataString = 'name=' + name + '&email=' + email + '&message=' + message;
-		
-				if (name === '' || !IsEmail(email) || message === '') {
-					$('#valid-issue').html('Please Provide Valid Information').slideDown();
-				} else {
-					$.ajax({
-						type: "POST",
-						url: "assets/php/submit.php",
-						data: dataString,
-						success: function () {
-							$('#contactform').slideUp();
-							$('#valid-issue').html('Your message has been sent,<BR> We will contact you back with in next 24 hours.').show();
-						}
-					});
-				}
-				return false;
-			});
-		}	
 	}
+
+	$(document).ready(function(){
+		$(window).resize(function(){
+			const $ww=$(window).width();
+				
+			if($ww<=993){
+				$('.album').click(function(e){
+					e.preventDefault();
+					e.stopPropagation();
+					$(this).find('.hover').css('opacity', 1);
+					$(this).find('a').click(function(e){
+						window.location.href = this.href;
+					});
+				});
+
+				$(window).click(function() {
+					$('.hover').css('opacity', 0);
+				});
+			}
+		}).resize();
+	});
 
 })(jQuery);

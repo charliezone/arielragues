@@ -78,29 +78,68 @@
      grid-template-columns: 1fr 1fr;
  }
 
- #newsletter input[name="nombre"]{
+ #newsletter input,
+ #newsletter input::placeholder{
+   color: #ffffff;
+ }
+
+ #newsletter .wpcf7-form-control-wrap.nombre{
      grid-row: 1 / 3;
      grid-column: 1;
  }
 
- #newsletter input[name="correo"]{
+ #newsletter .wpcf7-form-control-wrap.correo{
     grid-row: 1 / 3;
     grid-column: 2;
  }
 
+ #newsletter .wpcf7-form-control-wrap.mensage{
+    grid-column: 1 / 3;
+ }
+
  #newsletter textarea{
     width: 100%;
-    height: 40px;
     height: 70px;
-    color: #353535;
+    color: #ffffff;
     text-align: left;
     border-radius: 3px;
     padding-left: 10px;
-    grid-column: 1 / 3;
     background: #0e0b0c;
     border: 1px solid #171717;
  }
 
+ #newsletter textarea::placeholder{
+   color: #ffffff;
+ }
+
  #newsletter .submit-btn{
+    color: #FFF;
+    grid-row: 4;
+    border: none;
     grid-column: 2;
+    margin: 10px 0;
+    font-size: 14px;
+    padding: 10px 24px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: oswald;
+    background: #e62948;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+ }
+
+ #newsletter .wpcf7-response-output{
+   grid-row: 4;
+   grid-column: 1;
+   margin-top: 10px;
+   text-align: center;
+ }
+
+ #newsletter .ajax-loader{
+   grid-row: 4;
+ }
+
+ #newsletter .wpcf7-not-valid-tip{
+    text-align: center;
  }

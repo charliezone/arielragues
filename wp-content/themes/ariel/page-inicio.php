@@ -62,6 +62,20 @@
               </div>
             </div>
             <!--\\album-->
+
+            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/el-piquito.jpg" alt="Canción El Piquito"/>
+              <div class="hover">
+                <ul>
+                  <li><a href="https://open.spotify.com/album/6hHoC9PSyKhbYyJ2eqHtSN" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
+                  <li><a href="https://www.deezer.com/mx/album/173842472" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
+                  <li><a href="https://music.apple.com/us/album/el-piquito-single/1531970020" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
+                  <li><a href="https://www.amazon.com/El-Piquito/dp/B08J5Z8712/ref=sr_1_1?dchild=1&keywords=ariel+ragues&s=dmusic&sr=1-1" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
+                </ul>
+                <h3>Ariel Ragues</h3>
+                <h2>El Piquito</h2>
+              </div>
+            </div>
+            <!--\\album-->
             
             <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/obatala.jpg" alt="Canción Obatalá"/>
               <div class="hover">
@@ -87,20 +101,6 @@
                 </ul>
                 <h3>Ariel Ragues</h3>
                 <h2>Me pongo happy</h2>
-              </div>
-            </div>
-            <!--\\album-->
-            
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/el-piquito.jpg" alt="Canción El Piquito"/>
-              <div class="hover">
-                <ul>
-                  <li><a href="https://open.spotify.com/album/6hHoC9PSyKhbYyJ2eqHtSN" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
-                  <li><a href="https://www.deezer.com/mx/album/173842472" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
-                  <li><a href="https://music.apple.com/us/album/el-piquito-single/1531970020" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
-                  <li><a href="https://www.amazon.com/El-Piquito/dp/B08J5Z8712/ref=sr_1_1?dchild=1&keywords=ariel+ragues&s=dmusic&sr=1-1" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
-                </ul>
-                <h3>Ariel Ragues</h3>
-                <h2>El Piquito</h2>
               </div>
             </div>
             <!--\\album-->
@@ -140,6 +140,31 @@
               
             </div>
             <!--latest events-->
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <h1>Últimos Videos</h1>
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/SJKrNomuNfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!--\\video-feed-->
+              
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/cmmOjsHA6ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!--\\video-feed-->
+              
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/5XxGop2hAHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!--\\video-feed--> 
+
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/-USuItoM8K4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!--\\video-feed-->
+              
+            </div>
+            <!--latest videos--> 
             
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h2>NOTICIAS</h2>
@@ -173,31 +198,6 @@
               
             </div>
             <!--latest news-->
-
-            <div class="col-lg-3 col-md-3 col-sm-3">
-              <h1>Últimos Videos</h1>
-              <div class="video-feed">
-                <iframe src="https://www.youtube.com/embed/SJKrNomuNfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <!--\\video-feed-->
-              
-              <div class="video-feed">
-                <iframe src="https://www.youtube.com/embed/cmmOjsHA6ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <!--\\video-feed-->
-              
-              <div class="video-feed">
-                <iframe src="https://www.youtube.com/embed/5XxGop2hAHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <!--\\video-feed--> 
-
-              <div class="video-feed">
-                <iframe src="https://www.youtube.com/embed/-USuItoM8K4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <!--\\video-feed-->
-              
-            </div>
-            <!--latest videos--> 
           </div>
         </div>
       </section>
