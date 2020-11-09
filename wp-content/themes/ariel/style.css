@@ -12,32 +12,95 @@
  /* General */
  h2{
     font-size: 30px;
-    text-transform: uppercase;
     position: relative;
     padding-left: 20px;
+    text-transform: uppercase;
  }
 
  h2:before{
-    content: '';
-    left: 0;
     top: 0;
+    left: 0;
+    content: '';
+    width: 10px;
+    height: 100%;
     font-size: 30px;
     position: absolute;
-    height: 100%;
-    width: 10px;
     background: #e62948;
     text-transform: uppercase;
  }
 
+ /* Home */
+
+ /* Songs */
+
+ .albums-carousel .album .hover ul{
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-columns: 50% 50%;
+ }
+
+ .albums-carousel .album:hover ul{
+    width: 70%;
+    margin-top: 10px;
+    margin: 10px auto 30px;
+ }
+
+ .albums-carousel .album .hover ul li{
+     margin: 0 auto;
+ }
+
+ .albums-carousel .album .hover img{
+     width: 24px;
+ }
+
+ @media screen and (max-width: 992px){
+    #albums .top-carouselnav{
+        top: 60px;
+    }
+
+    #albums .caroufredsel_wrapper{
+        margin-top: 30px!important;
+    }
+ }
+
+ /* Lates videos */
+
+ #updates .video-feed iframe{
+    width: 100%;
+    height: auto;
+ }
 
  /* Footer */
 
  #newsletter {
      display: grid;
-     grid-template-columns: 49% 49%;
+     grid-gap: 15px;
+     grid-template-columns: 1fr 1fr;
  }
 
- #newsletter input[name="correo"],
  #newsletter input[name="nombre"]{
-     grid-column: 1 / 2;
+     grid-row: 1 / 3;
+     grid-column: 1;
+ }
+
+ #newsletter input[name="correo"]{
+    grid-row: 1 / 3;
+    grid-column: 2;
+ }
+
+ #newsletter textarea{
+    width: 100%;
+    height: 40px;
+    height: 70px;
+    color: #353535;
+    text-align: left;
+    border-radius: 3px;
+    padding-left: 10px;
+    grid-column: 1 / 3;
+    background: #0e0b0c;
+    border: 1px solid #171717;
+ }
+
+ #newsletter .submit-btn{
+    grid-column: 2;
  }

@@ -16,29 +16,19 @@
             
             <div id="flex-home" class="flexslider" data-animation="slide" data-animationSpeed="1000" data-autoPlay="true" data-slideshowSpeed="7000">
               <ul class="slides">
-                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/slider.jpg" alt="" >
+                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/ariel_ragues.jpg" alt="Ariel Ragues" >
                   <div class="flex-caption">
-                    <h2>Premium music events theme</h2>
+                    <h2>Ariel Ragues, musico cubano</h2>
                   </div>
                 </li>
-                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/slider-1.jpg" alt="" >
+                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/la_vampiresa.jpg" alt="La Vampiresa" >
                   <div class="flex-caption">
-                    <h2>Premium music events theme</h2>
+                    <h2>Estreno La Vampiresa</h2>
                   </div>
                 </li>
-                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/slider-2.jpg" alt="" >
+                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/artistas_cubanos.jpg" alt="Artistas Cubanos" >
                   <div class="flex-caption">
-                    <h2>Premium music events theme</h2>
-                  </div>
-                </li>
-                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/slider-3.jpg" alt="" >
-                  <div class="flex-caption">
-                    <h2>Premium music events theme</h2>
-                  </div>
-                </li>
-                <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/slider-4.jpg" alt="" >
-                  <div class="flex-caption">
-                    <h2>Premium music events theme</h2>
+                    <h2>Haciendo música cubana</h2>
                   </div>
                 </li>
               </ul>
@@ -59,102 +49,61 @@
           <h1>Ultimas canciones</h1>
           <div class="top-carouselnav"> <a href="#" class="prev-album"><span class="fa fa-caret-left"></span></a> <a href="#" class="next-album"><span class="fa fa-caret-right"></span></a> </div>
           <div class="albums-carousel">
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/1.jpg" alt=""/>
+            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/la-vampiresa.jpg" alt="Canción La Vampiresa"/>
               <div class="hover">
                 <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/1.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                  <li><a href="https://open.spotify.com/album/3whYZBR1JQXvoeezEFEd4f" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
+                  <li><a href="https://www.deezer.com/mx/album/153044042" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
+                  <li><a href="https://music.apple.com/us/album/la-vampiresa-feat-michel-de-armas-single/1516969358" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
+                  <li><a href="https://www.amazon.com/Vampiresa-feat-Michel-Armas/dp/B08BZVQSWV/ref=sr_1_5?dchild=1&keywords=ariel+ragues&s=dmusic&sr=1-5" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
                 </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
+                <h3>Ariel Ragues</h3>
+                <h2>La Vampiresa</h2>
               </div>
             </div>
             <!--\\album-->
             
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/2.jpg" alt=""/>
+            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/obatala.jpg" alt="Canción Obatalá"/>
               <div class="hover">
                 <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/2.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                  <li><a href="https://open.spotify.com/album/6EfpiO9GW7jQcSSMwMEAzM" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
+                  <li><a href="https://www.deezer.com/mx/album/149860142" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
+                  <li><a href="https://music.apple.com/us/album/obatala-single/id1514570430" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
+                  <li><a href="https://www.amazon.com/Obatala-Ariel-Ragues/dp/B089F89XKX" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
                 </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
+                <h3>Ariel Ragues</h3>
+                <h2>Obatalá</h2>
               </div>
             </div>
             <!--\\album-->
             
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/3.jpg" alt=""/>
+            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/me-pongo-happy.jpg" alt="Canción Me pongo happy"/>
               <div class="hover">
                 <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/3.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                  <li><a href="https://open.spotify.com/album/4r8G4PrODqYqjkGRq8p2jh" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
+                  <li><a href="https://www.deezer.com/mx/album/149716402" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
+                  <li><a href="https://music.apple.com/us/album/me-pongo-happy-single/1514483469" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
+                  <li><a href="https://www.amazon.com/Me-Pongo-Happy/dp/B07TW9Z5C7/ref=sr_1_3?dchild=1&keywords=ariel+ragues&s=dmusic&sr=1-3" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
                 </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
+                <h3>Ariel Ragues</h3>
+                <h2>Me pongo happy</h2>
               </div>
             </div>
             <!--\\album-->
             
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/4.jpg" alt=""/>
+            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/el-piquito.jpg" alt="Canción El Piquito"/>
               <div class="hover">
                 <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/4.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
+                  <li><a href="https://open.spotify.com/album/6hHoC9PSyKhbYyJ2eqHtSN" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
+                  <li><a href="https://www.deezer.com/mx/album/173842472" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
+                  <li><a href="https://music.apple.com/us/album/el-piquito-single/1531970020" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
+                  <li><a href="https://www.amazon.com/El-Piquito/dp/B08J5Z8712/ref=sr_1_1?dchild=1&keywords=ariel+ragues&s=dmusic&sr=1-1" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
                 </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
+                <h3>Ariel Ragues</h3>
+                <h2>El Piquito</h2>
               </div>
             </div>
             <!--\\album-->
-            
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/5.jpg" alt=""/>
-              <div class="hover">
-                <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/5.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
-                </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
-              </div>
-            </div>
-            <!--\\album-->
-            
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/6.jpg" alt=""/>
-              <div class="hover">
-                <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/6.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
-                </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
-              </div>
-            </div>
-            <!--\\album-->
-            
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/7.jpg" alt=""/>
-              <div class="hover">
-                <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/7.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
-                </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
-              </div>
-            </div>
-            <!--\\album-->
-            
-            <div class="album"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/8.jpg" alt=""/>
-              <div class="hover">
-                <ul>
-                  <li><a href="<?php echo get_template_directory_uri(); ?>/assets/img/albums/8.jpg" data-rel="prettyPhoto"><span class="fa fa-search"  ></span></a></li>
-                  <li><a href="album-detail.html"><span class="fa fa-link"></span></a></li>
-                </ul>
-                <h3>Lorem Artist</h3>
-                <h2>Album</h2>
-              </div>
-            </div>
-            <!--\\album--> 
-            
           </div>
         </div>
       </section>
@@ -194,60 +143,58 @@
             
             <div class="col-lg-6 col-md-6 col-sm-6">
               <h2>NOTICIAS</h2>
-              <div class="news-feed"> <img src="assets/img/news/1.jpg" alt="dummy"> <a href="#">Wale's Own Comeback Inspired RGIII Anthem 'No Pain No Gain'</a>
-                <ul>
-                  <li>4 hours ago</li>
-                  <li><span class="fa fa-comment"></span>5 comments</li>
-                </ul>
-                <p>'I use uncertainty as motivation and hopefully Rob uses it as motivation as well,' Wale says of track written for Redskins quarterback documentary.</p>
-              </div>
-              <!--\\latest news-->
-              
-              <div class="news-feed"> <img src="assets/img/news/2.jpg" alt="dummy"> <a href="#">Drake's Nothing Was The Same Cover Explained!</a>
-                <ul>
-                  <li>4 hours ago</li>
-                  <li><span class="fa fa-comment"></span>5 comments</li>
-                </ul>
-                <p>'I use uncertainty as motivation and hopefully Rob uses it as motivation as well,' Wale says of track written for Redskins quarterback documentary.</p>
-              </div>
-              <!--\\latest news-->
-              
-              <div class="news-feed"> <img src="assets/img/news/3.jpg" alt="dummy"> <a href="#">Kanye Lets Guard Down In 'Joy'-Filled Talk About Kim And North</a>
-                <ul>
-                  <li>4 hours ago</li>
-                  <li><span class="fa fa-comment"></span>5 comments</li>
-                </ul>
-                <p>'I use uncertainty as motivation and hopefully Rob uses it as motivation as well,' Wale says of track written for Redskins quarterback documentary.</p>
-              </div>
-              <!--\\latest news-->
-              
-              <div class="news-feed"> <img src="assets/img/news/4.jpg" alt="dummy"> <a href="#">Drake's 'Smoove' Album Cover Has Fans Doing Blue Ivy Double-Take</a>
-                <ul>
-                  <li>4 hours ago</li>
-                  <li><span class="fa fa-comment"></span>5 comments</li>
-                </ul>
-                <p>'I use uncertainty as motivation and hopefully Rob uses it as motivation as well,' Wale says of track written for Redskins quarterback documentary.</p>
-              </div>
-              <!--\\latest news--> 
+              <?php 
+                ob_start();
+                $args = array( 
+                  'post_type' => 'noticias'
+               );
+               $posts_query = new WP_Query;
+               $posts_query->query( $args );
+               if ($posts_query->have_posts()) {
+                  while($posts_query->have_posts()){
+                  $posts_query->the_post();
+                      ?>
+                        <div class="news-feed">
+                          <img src="<?php the_post_thumbnail_url('large');?>" alt="dummy"> 
+                          <a href="<?php the_field('direccion') ?>"><?php the_title() ?></a>
+                          <p><?php the_field('descripcion') ?></p>
+                        </div>
+                        <!--\\latest news-->
+                      <?php
+                  }
+               }
+                wp_reset_postdata();
+         
+                /* Get the buffered content into a var */
+                $news = ob_get_contents();
+                ob_end_clean();
+                echo $news;
+              ?>
               
             </div>
             <!--latest news-->
+
             <div class="col-lg-3 col-md-3 col-sm-3">
               <h1>Últimos Videos</h1>
-              <div class="video-feed"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/videos/1.jpg" alt=""/> <a href="video-detail.html"><span class="fa fa-play"></span></a>
-                <h6>1 week ago</h6>
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/SJKrNomuNfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <!--\\video-feed-->
               
-              <div class="video-feed"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/videos/2.jpg" alt=""/> <a href="video-detail.html"><span class="fa fa-play"></span></a>
-                <h6>1 week ago</h6>
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/cmmOjsHA6ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <!--\\video-feed-->
               
-              <div class="video-feed"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/videos/3.jpg" alt=""/> <a href="video-detail.html"><span class="fa fa-play"></span></a>
-                <h6>1 week ago</h6>
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/5XxGop2hAHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <!--\\video-feed--> 
+
+              <div class="video-feed">
+                <iframe src="https://www.youtube.com/embed/-USuItoM8K4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!--\\video-feed-->
               
             </div>
             <!--latest videos--> 

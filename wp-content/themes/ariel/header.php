@@ -47,10 +47,10 @@ Style Sheets
   <div class="social-links">
     <div class="container">
       <ul class="social">
-        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-        <li ><a href="#"><span class="fa fa-twitter"></span></a></li>
-        <li ><a href="#"><span class="fa fa-youtube"></span></a></li>
-        <li ><a href="#"><span class="fa fa-instagram"></span></a></li>
+        <li><a href="https://www.facebook.com/arielraguespage"><span class="fa fa-facebook"></span></a></li>
+        <li ><a href="https://twitter.com/ariel_ragues"><span class="fa fa-twitter"></span></a></li>
+        <li ><a href="https://www.youtube.com/c/ArielRagues"><span class="fa fa-youtube"></span></a></li>
+        <li ><a href="https://www.instagram.com/arielragues"><span class="fa fa-instagram"></span></a></li>
       </ul>
     </div>
   </div>
@@ -116,7 +116,7 @@ JPlayer (Audio Player)
             </div>
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
               <div class="player-status">
-                <h5 class="audio-title">Maroon 5 - Moves Like Jagger ft. Christina Aguilera</h5>
+                <h5 class="audio-title">Maroon 5 - La Vampiresa</h5>
                 <div class="audio-timer"><span class="current-time jp-current-time">01:02</span> / <span class="total-time jp-duration">4:05</span></div>
                 <div class="audio-progress">
                   <div class="jp-seek-bar">
@@ -139,27 +139,15 @@ JPlayer (Audio Player)
             <div class="jp-playlist"> 
               <!--Add Songs In mp3 formate here-->
               <ul class="hidden playlist-files">
-                <li data-title="Maroon 5 - Moves Like Jagger" 
-                                    	data-artist="ft. Christina" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
-                <li data-title="Coldplay - Princess Of China" 
-                                    	data-artist="ft. Rihanna" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
-                <li data-title="Lorem Ipsum" 
-                                    	data-artist="ft. Rocker" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
-                <li data-title="New Fish!!!" 
-                                    	data-artist="ft. Jailer" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
-                <li data-title="I wanna grow" 
-                                    	data-artist="ft. MeDon" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
-                <li data-title="do be do" 
-                                    	data-artist="ft. scoby" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
-                <li data-title="We aint smart" 
-                                    	data-artist="ft. SomeFool" 
-                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="La Vampiresa" 
+                                    	data-artist="Ariel Ragues" 
+                                        data-mp3="<?php echo get_template_directory_uri(); ?>/assets/audio/la-vampiresa.mp3"></li>
+                <li data-title="Obatalá" 
+                                    	data-artist="Ariel Ragues" 
+                                        data-mp3="<?php echo get_template_directory_uri(); ?>/assets/audio/obatala.mp3"></li>
+                <li data-title="Me pongo happy" 
+                                    	data-artist="Ariel Ragues" 
+                                        data-mp3="<?php echo get_template_directory_uri(); ?>/assets/audio/me-pongo-happy.mp3"></li>
               </ul>
               <!--Playlist ends-->
               <h5>Muestras de los últimos temas</h5>
