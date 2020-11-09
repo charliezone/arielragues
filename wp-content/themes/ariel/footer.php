@@ -8,7 +8,9 @@
       
       <div class="col-lg-4 col-md-4 col-sm-4">
         <h4><span class="fa fa-twitter"></span>Últimos Tweets</h4>
-        <div class="latest-tweet" data-username="envato" data-limit="2"></div>
+        <?php if ( is_active_sidebar( 'footer_1' ) ) : ?>
+          <?php dynamic_sidebar( 'footer_1' ); ?>
+        <?php endif; ?>  
       </div>
       <!--\\column-->
       

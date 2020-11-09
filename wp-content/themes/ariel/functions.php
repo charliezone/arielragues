@@ -7,7 +7,7 @@ function ariel_setup(){
 add_action('after_setup_theme', 'ariel_theme_setup');
  
 /**
- * Load translations for raro_theme
+ * Load translations for ariel_theme
  */
 function ariel_theme_setup(){
     load_theme_textdomain('ariel', get_template_directory() . '/languages');
@@ -45,3 +45,35 @@ function ariel_styles_scripts() {
 
 add_action( 'after_setup_theme', 'ariel_setup' );
 add_action( 'wp_enqueue_scripts', 'ariel_styles_scripts' );
+
+/* Defining wigdgets */
+
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+
+function ariel_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Footer 1',
+		'id'            => 'footer_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+    ) );
+    
+    register_sidebar( array(
+		'name'          => 'Footer 2',
+		'id'            => 'footer_2',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+}
+
+add_action( 'widgets_init', 'ariel_widgets_init' );
+?>
