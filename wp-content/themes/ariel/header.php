@@ -1,39 +1,19 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html class="no-js" <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<title>Ariel Ragues</title>
+<meta charset=<?php bloginfo( 'charset' ); ?>>
+<title><?php bloginfo('name'); ?> - <?php the_title() ?></title>
 
 <!--=================================
 Meta tags
 =================================-->
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/basic/favicon.png">
 
-<!--=================================
-Style Sheets
-=================================-->
-<!-- <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/flexslider.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/prettyPhoto.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/jquery.vegas.css">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css"> -->
-
-<!--<link rel="stylesheet" type="text/css" href="assets/css/blue.css">
-<link rel="stylesheet" type="text/css" href="assets/css/orange.css">
-<link rel="stylesheet" type="text/css" href="assets/css/red.css">
-<link rel="stylesheet" type="text/css" href="assets/css/green.css">
-<link rel="stylesheet" type="text/css" href="assets/css/purple.css">-->
-
-<!-- <script async  src="<?php echo get_template_directory_uri(); ?>/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
-<!-- <script defer  src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.js"></script> -->
 <?php wp_head() ?>
 </head>
 <body>
@@ -58,19 +38,18 @@ Style Sheets
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle fa fa-navicon"></button>
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="<?php echo site_url() ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/basic/logo.png" alt="logo" />
         </a>
       </div>
       <div class="nav_wrapper">
         <div class="nav_scroll">
           <ul class="nav navbar-nav">
-            <li><a href="#">Inicio</a>
+            <li><a href="<?php echo site_url() ?>">Inicio</a>
             </li>
-            <li><a href="gallery.html">Galería</a></li>
-            <li><a href="gallery.html">Videos</a></li>
-            <li><a href="news.html">Blog</a></li>
-            <li><a href="contact.html" >Contacto</a></li>
+            <li><a href="<?php echo site_url('galeria') ?>">Galería</a></li>
+            <li><a href="<?php echo site_url('videos') ?>">Videos</a></li>
+            <li><a class="js-target-scroll" href="#contacto">Contacto</a></li>
           </ul>
         </div>
         <!--/.nav-collapse --> 

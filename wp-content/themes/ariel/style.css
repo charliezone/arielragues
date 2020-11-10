@@ -29,9 +29,18 @@
     text-transform: uppercase;
  }
 
+ .social li a{
+    color: #fff;
+    border-color: #fff;
+ }
+
  /* Home */
 
  /* Songs */
+
+ .vegas-slides li:nth-of-type(4){
+   background-color: #01112a;
+ }
 
  .albums-carousel .album .hover ul{
     display: grid;
@@ -70,6 +79,17 @@
     height: auto;
  }
 
+ /* Page Videos */
+ 
+ .page-videos #videos .video-feed iframe{
+    width: 100%;
+    height: 300px;
+ }
+
+ .photo-gallery{
+    display: block;
+ }
+
  /* Footer */
 
  #newsletter {
@@ -99,7 +119,7 @@
 
  #newsletter textarea{
     width: 100%;
-    height: 70px;
+    height: 140px;
     color: #ffffff;
     text-align: left;
     border-radius: 3px;

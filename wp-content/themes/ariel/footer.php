@@ -16,11 +16,13 @@
       
       <div class="col-lg-4 col-md-4 col-sm-4">
         <h4><span class="fa fa-instagram"></span>Instagram</h4>
-        <ul id="flicker-feed" data-limit="6" data-userID="52617155@N08"></ul>
+        <?php if ( is_active_sidebar( 'footer_2' ) ) : ?>
+          <?php dynamic_sidebar( 'footer_2' ); ?>
+        <?php endif; ?> 
       </div>
       <!--\\column-->
       
-      <div class="col-lg-4 col-md-4 col-sm-4">
+      <div class="col-lg-4 col-md-4 col-sm-4" id="contacto">
         <h4><span class="fa fa-envelope"></span>Contacto</h4>
         <?php echo do_shortcode('[contact-form-7 id="22" html_id="newsletter" title="Contact form 1"]') ?>
         

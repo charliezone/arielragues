@@ -205,7 +205,7 @@
 		9-Gllery
 		============================*/
 	
-		function onImagesLoaded($container, callback) {
+		/* function onImagesLoaded($container, callback) {
 			var $images = $container.find("img");
 			var imgCount = $images.length;
 			if (!imgCount) {
@@ -255,7 +255,7 @@
 				}
 			});
 			return false;
-		});
+		}); */
 		
 		
 		/*========================
@@ -318,6 +318,22 @@
 				});
 			}
 		}).resize();
+
+		/*-------------------------------------------------------------------------------
+		Smooth scroll to anchor
+		-------------------------------------------------------------------------------*/
+
+
+
+		$('.js-target-scroll').on('click', function() {
+			var target = $(this.hash);
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: (target.offset().top -100)
+				}, 1000);
+				return false;
+			}
+		});
 	});
 
 })(jQuery);
