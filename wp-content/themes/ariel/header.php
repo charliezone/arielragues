@@ -16,9 +16,14 @@ Meta tags
 
 <?php wp_head() ?>
 </head>
-<body>
+<body class="<?php if(is_page('inicio')) echo 'home' ?>">
 
-
+<!--=================================
+Video de fondo
+=================================-->
+<?php if(is_page('inicio')): ?>
+  <iframe id="video-de-fondo" src="https://www.youtube.com/embed/cmmOjsHA6ls?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<?php endif; ?>
 
 <!--=================================
 	Header
@@ -58,17 +63,6 @@ Meta tags
     </div>
   </nav>
 </header>
-
-<!--=================================
-Vegas Slider Images
-=================================-->
-
-<ul class="vegas-slides hidden">
-  <li><img data-fade='2000' src="<?php echo get_template_directory_uri(); ?>/assets/img/BG/bg1.jpg" alt="" /></li>
-  <li><img data-fade='2000' src="<?php echo get_template_directory_uri(); ?>/assets/img/BG/bg2.jpg" alt="" /></li>
-  <li><img data-fade='2000' src="<?php echo get_template_directory_uri(); ?>/assets/img/BG/bg3.jpg" alt="" /></li>
-  <li><img data-fade='2000' src="<?php echo get_template_directory_uri(); ?>/assets/img/BG/bg4.jpg" alt="" /></li>
-</ul>
 
 <!--=================================
 JPlayer (Audio Player)

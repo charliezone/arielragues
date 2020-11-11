@@ -10,6 +10,38 @@
  */
 
  /* General */
+ #video-de-fondo{
+    display: none;
+ }
+
+ @media screen and (min-width: 992px){
+   .home #updates .container,
+   .home #albums .container,
+   .home #albums .container,
+   .home footer .container,
+   .home header,
+   .home header .container{
+     background-color: rgba(0, 0, 0, 0.85);
+   }
+
+   .home #video-de-fondo{
+      width: 100%;
+      z-index: -1;
+      height: 100%;
+      position: fixed;
+      display: block;
+    }
+
+   .home header{
+      margin-bottom: 0;
+      padding-bottom: 35px;
+   }
+
+   .home .navbar-default{
+      background: none;
+   }
+ }
+
  h2{
     font-size: 30px;
     position: relative;
