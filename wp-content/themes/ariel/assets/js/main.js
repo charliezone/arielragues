@@ -307,14 +307,14 @@
 				$('.album').click(function(e){
 					e.preventDefault();
 					e.stopPropagation();
-					$(this).find('.hover').css('opacity', 1);
+					$(this).find('.hover').fadeIn();
 					$(this).find('a').click(function(e){
 						window.location.href = this.href;
 					});
 				});
 
 				$(window).click(function() {
-					$('.hover').css('opacity', 0);
+					$('.hover').css('display', 'none');
 				});
 			}
 		}).resize();
