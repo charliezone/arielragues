@@ -307,7 +307,7 @@
 				$('.album').click(function(e){
 					e.preventDefault();
 					e.stopPropagation();
-					$(this).find('.hover').fadeIn();
+					$('.hover').css('display', 'block');
 					$(this).find('a').click(function(e){
 						window.location.href = this.href;
 					});

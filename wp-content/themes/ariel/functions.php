@@ -39,7 +39,7 @@ function ariel_styles_scripts() {
     wp_enqueue_script( 'script-vegas', get_template_directory_uri() . '/assets/js/jquery.vegas.min.js', array('script-jplayer-playlist'), '', true );
     wp_enqueue_script( 'script-calendar', get_template_directory_uri() . '/assets/js/jquery.calendar-widget.js', array('script-vegas'), '', true );
     wp_enqueue_script( 'script-isotope', get_template_directory_uri() . '/assets/js/isotope.js', array('script-calendar'), '', true );
-    wp_enqueue_script( 'script-main', get_template_directory_uri() . '/assets/js/main.js', array('script-isotope'), '1.0.1', true );
+    wp_enqueue_script( 'script-main', get_template_directory_uri() . '/assets/js/main.js', array('script-isotope'), '1.0.2', true );
 }
 
 
