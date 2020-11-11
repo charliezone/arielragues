@@ -22,7 +22,7 @@ Meta tags
 Video de fondo
 =================================-->
 <?php if(is_page('inicio')): ?>
-  <iframe id="video-de-fondo" src="https://www.youtube.com/embed/cmmOjsHA6ls?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe id="video-de-fondo" src="https://www.youtube.com/embed/cmmOjsHA6ls?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <?php endif; ?>
 
 <!--=================================
