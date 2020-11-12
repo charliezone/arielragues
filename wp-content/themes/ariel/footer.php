@@ -7,7 +7,7 @@
       <!--\\column-->
       
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <h4><span class="fa fa-twitter"></span>Últimos Tweets</h4>
+        <h4><span class="fa fa-twitter"></span><?php _e('Últimos Tweets', 'ariel') ?></h4>
         <?php if ( is_active_sidebar( 'footer_1' ) ) : ?>
           <?php dynamic_sidebar( 'footer_1' ); ?>
         <?php endif; ?>  
@@ -23,9 +23,8 @@
       <!--\\column-->
       
       <div class="col-lg-4 col-md-4 col-sm-4" id="contacto">
-        <h4><span class="fa fa-envelope"></span>Contacto</h4>
-        <?php echo do_shortcode('[contact-form-7 id="22" html_id="newsletter" title="Contact form 1"]') ?>
-        
+        <h4><span class="fa fa-envelope"></span><?php _e('Contacto', 'ariel') ?></h4>
+        <?php echo (pll_current_language() === 'es' ) ? do_shortcode('[contact-form-7 id="22" html_id="newsletter" title="Contact form 1"]') : do_shortcode('[contact-form-7 id="57" html_id="newsletter" title="Contact form 1 en"]') ?>
       </div>
       <!--\\column--> 
       

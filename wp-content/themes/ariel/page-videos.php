@@ -15,7 +15,7 @@
                       
                       <div class="col-lg-6 col-md-6 col-sm-6">
                           <ul>
-                              <li><a href="<?php echo site_url() ?>">Inicio</a></li>
+                              <li><a href="<?php echo site_url() ?>"><?php _e('Inicio', 'ariel') ?></a></li>
                               <li><a href="#">videos</a></li>
                           </ul>
                       </div>
@@ -41,10 +41,6 @@
                         <div class="video-feed">
                             <iframe src="https://www.youtube.com/embed/cmmOjsHA6ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div><!--\\video-feed-->
-                        
-                        <div class="video-feed">
-                            <iframe src="https://www.youtube.com/embed/5XxGop2hAHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div><!--\\video-feed-->
                     </div>
                   </div><!--latest videos-->
                   
@@ -56,10 +52,6 @@
                             
                             <div class="video-feed">
                                 <iframe src="https://www.youtube.com/embed/5XxGop2hAHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div><!--\\video-feed-->
-                            
-                            <div class="video-feed">
-                                <iframe src="https://www.youtube.com/embed/dmEFMd0DkmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div><!--\\video-feed-->
                         </div>
                     </div><!--latest videos-->

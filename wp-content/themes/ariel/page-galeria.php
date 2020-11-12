@@ -10,13 +10,13 @@
              <div class="container">
                   <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-6">
-                          <h1>Galería</h1>
+                          <h1><?php _e('Galería', 'ariel') ?></h1>
                       </div>
                       
                       <div class="col-lg-6 col-md-6 col-sm-6">
                           <ul>
-                              <li><a href="<?php echo site_url() ?>">Inicio</a></li>
-                              <li><a href="#">Galería</a></li>
+                              <li><a href="<?php echo site_url() ?>"><?php _e('Inicio', 'ariel') ?></a></li>
+                              <li><a href="#"><?php _e('Galería', 'ariel') ?></a></li>
                           </ul>
                       </div>
                   </div>

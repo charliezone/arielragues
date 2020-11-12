@@ -27,10 +27,10 @@ Meta tags
   <div class="social-links">
     <div class="container">
       <ul class="social">
-        <li><a href="https://www.facebook.com/arielraguespage"><span class="fa fa-facebook"></span></a></li>
-        <li ><a href="https://twitter.com/ariel_ragues"><span class="fa fa-twitter"></span></a></li>
-        <li ><a href="https://www.youtube.com/c/ArielRagues"><span class="fa fa-youtube"></span></a></li>
-        <li ><a href="https://www.instagram.com/arielragues"><span class="fa fa-instagram"></span></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/arielraguespage"><span class="fa fa-facebook"></span></a></li>
+        <li ><a target="_blank" href="https://twitter.com/ariel_ragues"><span class="fa fa-twitter"></span></a></li>
+        <li ><a target="_blank" href="https://www.youtube.com/c/ArielRagues"><span class="fa fa-youtube"></span></a></li>
+        <li ><a target="_blank" href="https://www.instagram.com/arielragues"><span class="fa fa-instagram"></span></a></li>
       </ul>
     </div>
   </div>
@@ -39,17 +39,18 @@ Meta tags
       <div class="navbar-header">
         <button type="button" class="navbar-toggle fa fa-navicon"></button>
         <a class="navbar-brand" href="<?php echo site_url() ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/basic/logo.png" alt="logo" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/basic/logo-2.png" alt="logo" />
         </a>
       </div>
       <div class="nav_wrapper">
         <div class="nav_scroll">
           <ul class="nav navbar-nav">
-            <li><a href="<?php echo site_url() ?>">Inicio</a>
+            <li><a href="<?php echo (pll_current_language() === 'es' ) ? site_url() : site_url('home') ?>"><?php _e('Inicio', 'ariel') ?></a>
             </li>
-            <li><a href="<?php echo site_url('galeria') ?>">Galería</a></li>
+            <li><a href="<?php echo (pll_current_language() === 'es' ) ? site_url('galeria') : site_url('gallery') ?>"><?php _e('Galería', 'ariel') ?></a></li>
             <li><a href="<?php echo site_url('videos') ?>">Videos</a></li>
-            <li><a class="js-target-scroll" href="#contacto">Contacto</a></li>
+            <li><a class="js-target-scroll" href="#contacto"><?php _e('Contacto', 'ariel') ?></a></li>
+            <?php pll_the_languages(array('show_flags' => 1, 'show_names' => 0)); ?>
           </ul>
         </div>
         <!--/.nav-collapse --> 
@@ -95,7 +96,7 @@ JPlayer (Audio Player)
             </div>
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
               <div class="player-status">
-                <h5 class="audio-title">Maroon 5 - La Vampiresa</h5>
+                <h5 class="audio-title">Ariel Ragues - La Vampiresa</h5>
                 <div class="audio-timer"><span class="current-time jp-current-time">01:02</span> / <span class="total-time jp-duration">4:05</span></div>
                 <div class="audio-progress">
                   <div class="jp-seek-bar">
@@ -129,7 +130,7 @@ JPlayer (Audio Player)
                                         data-mp3="<?php echo get_template_directory_uri(); ?>/assets/audio/me-pongo-happy.mp3"></li>
               </ul>
               <!--Playlist ends-->
-              <h5>Muestras de los últimos temas</h5>
+              <h5><?php _e('Muestras de los últimos temas', 'ariel') ?></h5>
               <div class="audio-track">
                 <ul>
                   <li></li>

@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-12 15:13-0500\n"
+"PO-Revision-Date: 2020-11-12 15:13-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "Error 404. Pagina no encontrada."
+msgstr "Error 404. Page not found."
+
+#: 404.php:8
+msgid "Regresar al"
+msgstr "Go"
+
+#: 404.php:8 header.php:48 page-galeria.php:18 page-videos.php:18
+msgid "Inicio"
+msgstr "Home"
+
+#: footer.php:10
+msgid "Últimos Tweets"
+msgstr "Last tweets"
+
+#: footer.php:26 header.php:52
+msgid "Contacto"
+msgstr "Contact"
+
+#: header.php:50 page-galeria.php:13
+msgid "Galería"
+msgstr "Gallery"
+
+#: header.php:132
+msgid "Muestras de los últimos temas"
+msgstr "Samples of the latest songs"
+
+#: page-inicio.php:21
+msgid "musico cubano"
+msgstr "cuban musician"
+
+#: page-inicio.php:26
+msgid "Estreno"
+msgstr "Premiere"
+
+#: page-inicio.php:29
+msgid "Artistas Cubanos"
+msgstr "Cuban Artists"
+
+#: page-inicio.php:31
+msgid "Haciendo música cubana"
+msgstr "Making Cuban music"
+
+#: page-inicio.php:49
+msgid "Ultimas canciones"
+msgstr "Latest songs"
+
+#: page-inicio.php:52 page-inicio.php:66 page-inicio.php:80 page-inicio.php:94
+msgid "Canción"
+msgstr "Song"
+
+#: page-inicio.php:55 page-inicio.php:56 page-inicio.php:57 page-inicio.php:58
+#: page-inicio.php:69 page-inicio.php:70 page-inicio.php:71 page-inicio.php:72
+#: page-inicio.php:83 page-inicio.php:84 page-inicio.php:85 page-inicio.php:86
+msgid "Tienda"
+msgstr "Store"
+
+#: page-inicio.php:119
+msgid "Próximos eventos"
+msgstr "Upcoming events"
+
+#: page-inicio.php:138
+msgid "en"
+msgstr "in"
+
+#: page-inicio.php:156
+msgid "Últimos Videos"
+msgstr "Latest videos"
+
+#: page-inicio.php:181
+msgid "NOTICIAS"
+msgstr "NEWS"

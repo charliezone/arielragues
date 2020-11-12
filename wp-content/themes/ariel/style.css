@@ -34,6 +34,12 @@
     border-color: #fff;
  }
 
+ @media screen and (min-width: 992px){
+   .lang-item img{
+      margin-top: -5px;
+   }
+ }
+
  /* Home */
 
  /* Songs */
@@ -92,6 +98,21 @@
 
  .photo-gallery{
     display: block;
+ }
+
+ /* Page Galeria */
+ #gallery .eg-masonary-padding{
+   border: 3px solid #fff;
+ }
+
+ .pp_pic_holder{
+   z-index: 990000!important;
+ }
+
+ @media screen and (max-width: 992px){
+   #gallery .eg-masonary-padding{
+      border-width: 1px;
+   }
  }
 
  /* Footer */
