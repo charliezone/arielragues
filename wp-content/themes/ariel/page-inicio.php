@@ -134,8 +134,15 @@
                       ?>
                         <div class="event-feed">
                           <div class="date"> <span class="day"><?php echo explode('/', get_field('fecha'))[1] ?></span> <span class="month"><?php echo explode('/', get_field('fecha'))[0] ?></span> </div>
-                          <h5><?php the_title() ?></h5>
+                          <?php if(get_field('url')): ?>
+                            <h5><a target="_blank" href="<?php the_field('url') ?>"><?php the_title() ?></a></h5>
+                          <?php else: ?>
+                            <h5><?php the_title() ?></h5>
+                          <?php endif; ?>
                           <p><?php _e('en', 'ariel') ?> <?php the_field('lugar') ?></p>
+                          <?php if(get_field('hora')): ?>
+                            <?php the_field('hora') ?>
+                          <?php endif; ?>
                         </div>
                         <!--\\event-->
                       <?php

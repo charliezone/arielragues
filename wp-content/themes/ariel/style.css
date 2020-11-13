@@ -89,6 +89,35 @@
     height: auto;
  }
 
+ /* Events */
+ #updates .event-feed h5,
+ #updates .event-feed p{
+    padding-left: 90px;
+ }
+
+ #updates .event-feed a{
+   color: #e62948;
+ }
+
+ #updates .event-feed p{
+    text-transform: none;
+ }
+
+ #updates .event-feed ul{
+    margin-left: 90px;
+ }
+
+ #updates .event-feed ul li{
+   font-size: 12px;
+   text-transform: none;
+ }
+
+ @media screen and (max-width: 992px){
+   #updates .event-feed ul li{
+      font-size: 14px;
+   }
+ }
+
  /* Page Videos */
  
  .page-videos #videos .video-feed iframe{
