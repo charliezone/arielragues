@@ -18,7 +18,7 @@
               <ul class="slides">
                 <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/ariel_ragues.jpg" alt="Ariel Ragues" >
                   <div class="flex-caption">
-                    <h2>Ariel Ragues, <?php _e('musico cubano', 'ariel') ?></h2>
+                    <h2>Ariel Ragues</h2>
                   </div>
                 </li>
                 <li> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/la_vampiresa.jpg" alt="La Vampiresa" >
