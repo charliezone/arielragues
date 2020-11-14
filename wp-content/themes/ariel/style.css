@@ -217,3 +217,10 @@
  #newsletter .wpcf7-not-valid-tip{
     text-align: center;
  }
+
+ @media screen and (min-width: 992px){
+   .standar #newsletter .submit-btn{
+      width: 50%;
+      margin-left: auto;
+   }
+ }

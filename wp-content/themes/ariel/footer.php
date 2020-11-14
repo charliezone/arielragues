@@ -5,24 +5,25 @@
   <div class="container">
     <div class="row">
       <!--\\column-->
+      <?php if(is_page('inicio') || is_page('home')): ?>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <h4><span class="fa fa-twitter"></span><?php _e('Últimos Tweets', 'ariel') ?></h4>
+          <?php if ( is_active_sidebar( 'footer_1' ) ) : ?>
+            <?php dynamic_sidebar( 'footer_1' ); ?>
+          <?php endif; ?>  
+        </div>
+        <!--\\column-->
+        
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <h4><span class="fa fa-instagram"></span>Instagram</h4>
+          <?php if ( is_active_sidebar( 'footer_2' ) )  : ?>
+            <?php dynamic_sidebar( 'footer_2' ); ?>
+          <?php endif; ?> 
+        </div>
+        <!--\\column-->
+      <?php endif; ?>
       
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <h4><span class="fa fa-twitter"></span><?php _e('Últimos Tweets', 'ariel') ?></h4>
-        <?php if ( is_active_sidebar( 'footer_1' ) ) : ?>
-          <?php dynamic_sidebar( 'footer_1' ); ?>
-        <?php endif; ?>  
-      </div>
-      <!--\\column-->
-      
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <h4><span class="fa fa-instagram"></span>Instagram</h4>
-        <?php if ( is_active_sidebar( 'footer_2' ) ) : ?>
-          <?php dynamic_sidebar( 'footer_2' ); ?>
-        <?php endif; ?> 
-      </div>
-      <!--\\column-->
-      
-      <div class="col-lg-4 col-md-4 col-sm-4" id="contacto">
+      <div class="<?php echo (is_page('inicio') || is_page('home')) ? 'col-lg-4 col-md-4 col-sm-4' : 'standar col-sm-offset-2 col-sm-8' ?>" id="contacto">
         <h4><span class="fa fa-envelope"></span><?php _e('Contacto', 'ariel') ?></h4>
         <?php echo (pll_current_language() === 'es' ) ? do_shortcode('[contact-form-7 id="22" html_id="newsletter" title="Contact form 1"]') : do_shortcode('[contact-form-7 id="57" html_id="newsletter" title="Contact form 1 en"]') ?>
       </div>

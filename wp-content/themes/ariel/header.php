@@ -38,7 +38,7 @@ Meta tags
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle fa fa-navicon"></button>
-        <a class="navbar-brand" href="<?php echo site_url() ?>">
+        <a class="navbar-brand" href="<?php echo (pll_current_language() === 'es' ) ? site_url() : site_url('home') ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/basic/logo-2.png" alt="logo" />
         </a>
       </div>
