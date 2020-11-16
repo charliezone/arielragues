@@ -12,6 +12,10 @@ Meta tags
 =================================-->
 <meta content="yes" name="apple-mobile-web-app-capable" />
 <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+<meta property="og:url" content="https://arielragues.com/" />
+<meta property="og:title" content="Ariel Ragues" />
+<meta property="og:description" content="Sitio Web oficial" />
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/slider/ariel_ragues.jpg" />
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/basic/favicon.png">
 
 <?php wp_head() ?>
