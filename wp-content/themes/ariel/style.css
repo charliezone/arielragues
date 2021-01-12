@@ -60,6 +60,10 @@
     margin: 10px auto 30px;
  }
 
+ .albums-carousel .album.a-perderte:hover ul{
+   margin: 10px auto 5px;
+ }
+
  .albums-carousel .album .hover ul li{
      margin: 0 auto;
  }

@@ -104,6 +104,19 @@
               </div>
             </div>
             <!--\\album-->
+            <div class="album a-perderte"> <img src="<?php echo get_template_directory_uri(); ?>/assets/img/albums/no-me-resigno-a-perderte.jpg" alt="<?php _e('Canción', 'ariel') ?> No me resigno a perderte"/>
+              <div class="hover">
+                <ul>
+                  <li><a href="https://open.spotify.com/album/2uHKjYOA4iZKeoXI2lu3kO" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/spotify.png" alt="Tienda Spotify"></a></li>
+                  <li><a href="https://www.deezer.com/mx/album/193923922" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/deezer.png" alt="Tienda Deezer"></a></li>
+                  <li><a href="https://music.apple.com/mx/album/no-me-resigno-a-perderte/1545093112?i=1545093113" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/music-apple.png" alt="Tienda Apple"></a></li>
+                  <li><a href="https://www.amazon.com/No-Resigno-Perderte-Ariel-Ragues/dp/B08QRNC4X6/ref=sr_1_1?dchild=1&keywords=Ariel+Ragues&qid=1610395541&s=dmusic&sr=1-1" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/amazon.png" alt="Tienda Amazon"></a></li>
+                </ul>
+                <h3>Ariel Ragues</h3>
+                <h2>No me resigno a perderte</h2>
+              </div>
+            </div>
+            <!--\\album-->
           </div>
         </div>
       </section>

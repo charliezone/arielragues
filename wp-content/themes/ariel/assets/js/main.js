@@ -192,9 +192,9 @@
 			$('.albums-carousel').carouFredSel({
 				width: "100%",
 				height: 300,
-				circular: false,
-				infinite: false,
-				auto: false,
+				circular: true,
+				infinite: true,
+				auto: true,
 				scroll: {items: 1,easing: "linear"},
 				prev: {button: "a.prev-album",key: "left"},
 				next: {button: "a.next-album",key: "right"}
